@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoridBinding", "DoridBinding", "{3017E89A-DCD0-4650-A57D-3CD6E3DB2E0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOSBinding", "IOSBinding", "{1D756F16-6DC4-4188-90C3-0745342F49D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoridExample", "DoridExample", "{FDADE75B-D731-4C23-BE68-D26DD9123FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOSExample", "IOSExample", "{6E0661C1-5F85-449D-B699-98DBC6586BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ryan.Alipay.Droid", "Ryan.Alipay.Droid\Ryan.Alipay.Droid.csproj", "{2D2D8C9E-1328-4011-BE80-DA711FF2F939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ryan.Alipay.iOS", "Ryan.Alipay.iOS\Ryan.Alipay.iOS.csproj", "{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D2D8C9E-1328-4011-BE80-DA711FF2F939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2D8C9E-1328-4011-BE80-DA711FF2F939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2D8C9E-1328-4011-BE80-DA711FF2F939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2D8C9E-1328-4011-BE80-DA711FF2F939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D2D8C9E-1328-4011-BE80-DA711FF2F939} = {3017E89A-DCD0-4650-A57D-3CD6E3DB2E0A}
+		{0DBD983F-BD8F-4BD6-B08A-AD28457D35EF} = {1D756F16-6DC4-4188-90C3-0745342F49D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF192B6-5FE1-4B73-A57B-E8990C3F5CB8}
+	EndGlobalSection
+EndGlobal

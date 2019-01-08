@@ -1,2 +1,5 @@
 # XamarinBindingLibrarys
-XamarinBindingLibrarys
+绑定库及对应版本
+| 绑定库信息                                      | Andorid | IOS |
+|--------------------------------------------------|------|------|
+| 支付宝                                           | v15.5.5 | v15.5.5 |
