@@ -1,0 +1,13 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.netease.nrtc.sdk.common']/class[@name='LiveCompositingLayout']/method[@name='getMode' and count(parameter)=0]" name="name">LiveMode</attr>
+  <attr path="/api/package[@name='com.netease.nimlib.sdk.avchat.model']/class[@name='AVChatLiveCompositingLayout']/method[@name='getMode' and count(parameter)=0]" name="name">AVChatLiveMode</attr>
+  <attr path="/api/package[@name='com.netease.nimlib.sdk.search.model']/class[@name='MsgIndexRecord']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.netease.nimlib.sdk.search.model.MsgIndexRecord']]/
+    parameter[1]" name="managedType">Java.Lang.Object</attr>
+ </metadata>
